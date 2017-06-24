@@ -1,0 +1,301 @@
+/**********公共样式***********/
+body, input, textarea {
+    font-size: 12px;
+    font-family: Arial,Verdana,"\5b8b\4f53";
+    color:#444;
+    background-color: #F7F8F8;
+}
+body,ul,img,h1,h2,h3,h4,h5,h6,p,ol,div,dt,dl,input,button,textarea,li,a{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    color: #575556;
+    text-decoration: none;
+}
+a:hover{
+    color:#008842;
+    text-decoration: underline;
+}
+/*公共的功能class*/
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.clearfix:after,.clearfix:before{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;
+}
+img{
+    vertical-align: bottom;
+}
+/*header开始*/
+header{
+    width:100%;
+    height: 70px;
+    background-color: #E0E0E0;
+}
+header a{
+    width: 145px;
+    height: 70px;
+    display: inline-block;
+    background: url("../images/logo.png") no-repeat right center;
+    position: relative;
+}
+header div div{
+    padding: 0 95px 0 75px;
+}
+header span{
+    font-size: 28px;
+    font-family:"微软雅黑";
+    color: #008842;
+    position: absolute;
+    left: 315px;
+    top: 20px;
+}
+section .table{
+    width: 90%;
+    padding-top: 55px;
+    margin:0 auto;
+    position: relative;
+}
+section .table a{
+    display: inline-block ;
+    width: 204px;
+    height: 43px;
+    border:1px solid #C4DFB1;
+    line-height: 43px;
+    text-align: center;
+    font-family:"微软雅黑";
+    font-size: 18px;
+    text-decoration: none;
+}
+section .table .tab_1{
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+section .table .tab_3{
+    border:0;
+    border-bottom:1px solid #EF760A;
+    width: 36px;
+    height: 30px;
+    color: #EF760A;
+}
+section .table .tab_3:hover{
+    color: #EF760A;
+}
+section .table li{
+    position: absolute;
+    left: 315px;
+    top: 11px;
+
+}
+section .table li:nth-child(2){
+    left: 530px;
+}
+section .table li:nth-child(3){
+    left: 1005px;
+    top: 10px;
+    line-height: 36px;
+    font-family:"微软雅黑";
+    font-size:14px;
+}
+section .form{
+    width: 90%;
+    background-color: #fff;
+    border:1px solid #C4DFB1;
+    margin:0 auto;
+    padding-top: 40px;
+    padding-bottom:50px;
+}
+section .form span{
+    padding:0 24px 0 150px;
+    font-family:"微软雅黑";
+    font-size: 14px;
+    color: #444444;
+}
+section .form input{
+    border:1px solid #C1C1C1;
+    background-color: #fff;
+    color: #A9A9A9;
+    font-family:"微软雅黑";
+    font-size: 14px;
+    text-indent:1em;
+    height: 38px;
+}
+section .form p{
+    padding-bottom:30px;
+}
+section .form .verti_code span{
+    padding:0 24px 0 150px;
+}
+section .form .verti_code input{
+    width: 161px;
+}
+section .form .pho_num span{
+    padding:0 24px 0 178px;
+}
+section .form .pho_num input{
+    width: 304px;
+    background: url("../images/register_spite.png") no-repeat 276px -30px;
+}
+section .form .setcode span{
+    padding:0 24px 0 164px;
+}
+section .form .setcode input{
+    background: url("../images/register_spite.png") no-repeat 276px -70px;
+}
+section .form .invcode input{
+    background: url("../images/register_spite.png") no-repeat 276px -70px;
+}
+section .form .pho_code .getcode{
+    width: 121px;
+    color: #008842;
+    background-color:#F7F7F7;
+    cursor: pointer;
+}
+section .form .checkbox span{
+    padding-left: 5px;
+}
+section .form .checkbox{
+    padding-left: 240px;
+}
+section .form .login{
+    padding-left:240px;
+}
+section .form .login a{
+    display: inline-block;
+    background-color:#09964E;
+    color: #fff;
+    font-family:"微软雅黑";
+    font-size: 20px;
+    width: 307px;
+    height: 50px;
+    line-height:50px;
+    text-align: center;
+    text-decoration: none;
+}
+div.hr{
+    width: 100%;
+    height: 30px;
+    border-bottom:1px solid #E0E0E0;
+    background-color: #F7F8F8;
+}
+section .f_border{
+    width: 868px;
+    border-right:1px dotted #CFE4C3;
+}
+/*footer部分*/
+footer{
+    padding-top: 80px;
+    background-color: #F7F8F8;
+}
+/*footer_middle部分*/
+.footer_middle dl{
+    width: 240px;
+    float: left;
+}
+.footer_middle dl:first-child{
+    margin-left: 110px;
+}
+.footer_middle dl dt{
+    height: 23px;
+    color: #444444;
+    font-size: 15px;
+    padding-left: 35px;
+    line-height: 23px;
+    margin-bottom: 13px;
+    margin-left: 25px;
+}
+.footer_middle dl:first-child dt{
+    background:url("../images/carry_spiite.png") no-repeat 0 0;
+}
+.footer_middle dl:nth-child(2) dt{
+    background:url("../images/carry_spiite.png") no-repeat 0 -23px;
+}
+.footer_middle dl:nth-child(3) dt{
+    background:url("../images/carry_spiite.png") no-repeat 0 -46px;
+}
+.footer_middle dl:nth-child(4) dt{
+    background:url("../images/carry_spiite.png") no-repeat 0 -69px;
+}
+.footer_middle dl:nth-child(5) dt{
+    background:url("../images/carry_spiite.png") no-repeat 0 -92px;
+}
+.footer_middle dl dd{
+    height: 22px;
+    line-height:22px;
+    padding-left:20px;
+    border-left: 1px dashed #A8A8A8;
+}
+.footer_middle dl:nth-child(5) dd:last-child{
+    border-left:0;
+}
+/*footer_bottom样式*/
+.footer_bottom{
+    padding-top:40px;
+}
+.footer_bottom .p1{
+    text-align: center;
+    font-size: 15px;
+    color: #008842;
+    padding-bottom: 15px;
+}
+.footer_bottom .p2{
+    text-align: center;
+    font-size: 12px;
+    color: #717171;
+    padding-bottom: 5px;
+}
+.footer_bottom .p3{
+    text-align: center;
+    font-size: 12px;
+    color: #717171;
+    padding-bottom: 5px;
+}
+.footer_bottom .p3 a{
+    text-decoration: none;
+    color: #717171;
+}
+.footer_bottom .copy{
+    margin:0 auto;
+    width: 335px;
+}
+.footer_bottom .copy_1{
+    width: 38px;
+    height: 47px;
+    display: inline-block;
+    padding-right: 23px;
+}
+.footer_bottom .copy_1 img{
+    width:100%;
+    height: 100%;
+}
+.footer_bottom .copy_2{
+    width: 47px;
+    height: 47px;
+    display: inline-block;
+    padding-right: 23px;
+    background:url("../images/shgs.jpg")left bottom no-repeat;
+    vertical-align: top;
+}
+.footer_bottom .copy_3{
+    padding-left:24px;
+    display: inline-block;
+    height: 47px;
+    background:url("../images/hgn.png") no-repeat;
+    color: #939393;
+    text-decoration: none;
+    vertical-align: middle;
+}

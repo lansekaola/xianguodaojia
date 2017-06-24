@@ -1,0 +1,285 @@
+/**********公共样式***********/
+body, input, textarea {
+    font-size: 12px;
+    font-family: Arial,Verdana,"\5b8b\4f53";
+    color:#444;
+    /*background-color:#F7F8F8;*/
+}
+body,ul,img,h1,h2,h3,h4,h5,h6,p,ol,div,dt,dl,input,button,textarea,li,a{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    color: #575556;
+    text-decoration: none;
+}
+a:hover{
+    color:#008842;
+    text-decoration: underline;
+}
+/*公共的功能class*/
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.clearfix:after,.clearfix:before{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;
+}
+img{
+    vertical-align: bottom;
+}
+/*header开始*/
+header{
+    width:100%;
+    height: 70px;
+    background-color: #E0E0E0;
+    margin-bottom:50px;
+}
+header a{
+    width: 145px;
+    height: 70px;
+    display: inline-block;
+    background: url("../images/logo.png") no-repeat right center;
+    position: relative;
+}
+header div div{
+    padding: 0 95px 0 75px;
+}
+header span{
+font-size: 28px;
+    font-family:"微软雅黑";
+    color: #008842;
+    position: absolute;
+    left: 315px;
+    top: 20px;
+}
+/*section_one区域*/
+.section_one{
+    width: 88%;
+    margin:0 auto;
+}
+.section_one .img{
+    padding-right:80px;
+    float: left;
+}
+.section_one .form{
+    width: 328px;
+    height: 400px;
+    border: 1px solid #E3E6E0;
+    float: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    position: relative;
+}
+.section_one .form .wel_login{
+    font-size:18px;
+    font-family:"微软雅黑";
+    color: #262626;
+    margin-right:115px;
+}
+.section_one .form .no_account{
+    color: #878787;
+}
+.section_one .form .register{
+    color:#008842 ;
+    text-decoration: underline;
+}
+.section_one .form .text{
+    padding-left: 38px;
+    margin-top: 20px;
+    border:1px solid #C1C1C1;
+    width: 266px;
+    height: 38px;
+    text-indent: 1em;
+    font-family:"微软雅黑";
+    color: #C1C1C1;
+    font-size:14px;
+    background: url("../images/login_input.png") no-repeat 0 -120px;
+}
+.section_one .form .passward{
+    background: url("../images/login_input.png") no-repeat 0 -180px;
+}
+p.err-info{
+    padding:10px 0 5px 0;
+}
+.section_one .form .code{
+    background: url("../images/login_input.png") no-repeat 0 -180px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.section_one .form .div_code{
+    height: 13px;
+    background: url("../images/login_code.jpg") no-repeat;
+    position: absolute;
+    left: 210px;
+    top: 194px;
+    padding-left:46px;
+    padding-top:9px;
+}
+.section_one .form .div_code a{
+    color:#878787;
+}
+.section_one .form .div_code a:hover{
+    color:#008842;
+    text-decoration: none;
+}
+
+
+.section_one .form .button{
+    width: 305px;
+    height: 50px;
+    background-color: #008842;
+    color: #FFF;
+    font-family:"微软雅黑";
+    font-size: 18px;
+    outline-style: none;
+   margin:20px 0;
+}
+.section_one .form .auto_login{
+    color: #878787;
+    margin:0 150px 0 10px;
+}
+.section_one .form .for_login,.section_one .form .thi_login{
+    color: #878787;
+}
+.section_one .form .for_login:hover{
+    color:#008842;
+    text-decoration: none;
+}
+.section_one .form .QQ,.section_one .form .blog,.section_one .form .anyue{
+    display:inline-block;
+    width: 88px;
+    height: 20px;
+    margin-top: 20px;
+}
+.section_one .form .QQ{
+    background: url("../images/login_spite.png") no-repeat -60px -200px;
+}
+.section_one .form .blog{
+    background: url("../images/login_spite.png") no-repeat -160px -200px;
+    margin:0 20px;
+}
+.section_one .form .anyue{
+    background: url("../images/login_spite.png") no-repeat -260px -200px;
+}
+div.hr{
+    width: 100%;
+    height: 30px;
+    border-bottom:1px solid #E0E0E0;
+    background-color: #F7F8F8;
+}
+/*footer部分*/
+footer{
+    padding-top: 80px;
+    background-color: #F7F8F8;
+}
+/*footer_middle部分*/
+.footer_middle dl{
+    width: 240px;
+    float: left;
+}
+.footer_middle dl:first-child{
+    margin-left: 110px;
+}
+.footer_middle dl dt{
+    height: 23px;
+    color: #444444;
+    font-size: 15px;
+    padding-left: 35px;
+    line-height: 23px;
+    margin-bottom: 13px;
+    margin-left: 25px;
+}
+.footer_middle dl:first-child dt{
+    background:url("../images/carry_spiite.png") no-repeat 0 0;
+}
+.footer_middle dl:nth-child(2) dt{
+    background:url("../images/carry_spiite.png") no-repeat 0 -23px;
+}
+.footer_middle dl:nth-child(3) dt{
+    background:url("../images/carry_spiite.png") no-repeat 0 -46px;
+}
+.footer_middle dl:nth-child(4) dt{
+    background:url("../images/carry_spiite.png") no-repeat 0 -69px;
+}
+.footer_middle dl:nth-child(5) dt{
+    background:url("../images/carry_spiite.png") no-repeat 0 -92px;
+}
+.footer_middle dl dd{
+    height: 22px;
+    line-height:22px;
+    padding-left:20px;
+    border-left: 1px dashed #A8A8A8;
+}
+.footer_middle dl:nth-child(5) dd:last-child{
+    border-left:0;
+}
+/*footer_bottom样式*/
+.footer_bottom{
+    padding-top:40px;
+}
+.footer_bottom .p1{
+    text-align: center;
+    font-size: 15px;
+    color: #008842;
+    padding-bottom: 15px;
+}
+.footer_bottom .p2{
+    text-align: center;
+    font-size: 12px;
+    color: #717171;
+    padding-bottom: 5px;
+}
+.footer_bottom .p3{
+    text-align: center;
+    font-size: 12px;
+    color: #717171;
+    padding-bottom: 5px;
+}
+.footer_bottom .p3 a{
+    text-decoration: none;
+    color: #717171;
+}
+.footer_bottom .copy{
+    margin:0 auto;
+    width: 335px;
+}
+.footer_bottom .copy_1{
+    width: 38px;
+    height: 47px;
+    display: inline-block;
+    padding-right: 23px;
+}
+.footer_bottom .copy_1 img{
+    width:100%;
+    height: 100%;
+}
+.footer_bottom .copy_2{
+    width: 47px;
+    height: 47px;
+    display: inline-block;
+    padding-right: 23px;
+    background:url("../images/shgs.jpg")left bottom no-repeat;
+    vertical-align: top;
+}
+.footer_bottom .copy_3{
+    padding-left:24px;
+    display: inline-block;
+    height: 47px;
+    background:url("../images/hgn.png") no-repeat;
+    color: #939393;
+    text-decoration: none;
+    vertical-align: middle;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xianguodaojia</title>
+    <link rel="stylesheet" href="css/register.css">
+    <style type="text/css">
+        .mblack{
+            padding-top: 4px;
+            padding-left: 8px;
+            vertical-align: top;
+            white-space: nowrap;
+        }
+        .error{
+            background:url("img/err.png") no-repeat 0 0;
+            font-weight: bold;
+            padding-left:19px;
+            color: #F00;
+            font-size: 16px;
+        }
+        .checked{
+            background:url("img/ok.png") no-repeat center center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <div><a href="#"></a></div>
+    </div>
+    <span>注册</span>
+</header>
+<section>
+    <div class="table">
+        <ul>
+            <li><a class="tab_1" href="#">手机注册</a></li>
+            <li><a class="tab_2" href="#">邮箱注册</a></li>
+            <li>我已经注册，现在就<a class="tab_3" href="login.html">登录</a></li>
+        </ul>
+    </div>
+    <form class="form f_border" id="register_message">
+        <p class="verti_code"><span>图形验证码</span><input type="text" value="图形验证码"></p>
+        <p class="pho_num"><span>手机号</span><input type="text" name="phoneNum" id="phoneNum"></p>
+        <p class="pho_code"><span>手机验证码</span><input type="text" value="手机验证码"><input class="getcode" type="text"value="获取验证码" readonly></p>
+        <p class="pho_num setcode"><span>设置密码</span><input type="password" value="6-20位字母、符号和数字" name="password" id="password"></p>
+        <p class="pho_num setcode"><span>确认密码</span><input type="password" value="再次输入密码" name="repassword" id="repassword"></p>
+        <p class="pho_num invcode"><span>邀请码</span><input type="text" value="邀请码"></p>
+        <p class="checkbox"><input type="checkbox" name="xy" id="xy"><span>我已阅读并同意</span><a href="#">《易果服务协议》</a></p>
+        <p class="login"><a href="#" id="ljzc">立即注册</a></p>
+    </form>
+</section>
+
+<div class="hr"></div>
+<footer>
+    <div class="footer_middle clearfix">
+        <dl>
+            <dt>新手指南</dt>
+            <dd><a href="#">账户注册</a></dd>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">订购方式</a></dd>
+            <dd><a href="#">悠币说明</a></dd>
+            <dd><a href="#">会员等级</a></dd>
+        </dl>
+        <dl>
+            <dt>付款方式</dt>
+            <dd><a href="#">支付方式/发票说明</a></dd>
+            <dd><a href="#">充值说明/储值卡说明</a></dd>
+            <dd><a href="#">优惠代码/礼品卡说明</a></dd>
+            <dd><a href="#">卡券购买章程</a></dd>
+            <dd></dd>
+        </dl>
+        <dl>
+            <dt>配送方式</dt>
+            <dd><a href="#">配送运费</a></dd>
+            <dd><a href="#">配送范围</a></dd>
+            <dd><a href="#">配送时间</a></dd>
+            <dd></dd>
+            <dd></dd>
+        </dl>
+        <dl>
+            <dt>售后服务</dt>
+            <dd><a href="#">退换货政策</a></dd>
+            <dd><a href="#">退换货流程</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">投诉与建议</a></dd>
+            <dd></dd>
+        </dl>
+        <dl>
+            <dt>关于我们</dt>
+            <dd><a href="#">公司介绍</a></dd>
+            <dd><a href="#">联系我们</a></dd>
+            <dd><a href="#">业务合作</a></dd>
+            <dd><a href="#">诚信举报</a></dd>
+            <dd><a href="#">人才招聘</a></dd>
+            <dd><a href="#">友情链接</a></dd>
+        </dl>
+    </div>
+    <div class="footer_bottom">
+        <p class="p1">客服热线 400-000-7788 企业采购或团购，请转2号键咨询周一至周日 9:00-21:00</p>
+        <p class="p2">所有图片均受著作权保护，未经许可任何单位与个人不得使用、复制、转载、摘编，违者必究法律责任。</p>
+        <p class="p3">沪ICP备09008015号 Copyright © 2005-2016 <a href="#">上海易果电子商务有限公司</a>版权所有</p>
+        <div class="copy">
+            <a href="#" class="copy_1"><img src="images/copy.png"></a>
+            <a href="#" class="copy_2"></a>
+            <a href="#" class="copy_3">沪公网安备 31010502000002号</a>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>
